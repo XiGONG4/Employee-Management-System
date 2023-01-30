@@ -1,0 +1,16 @@
+startNewDay|01-Jan-2022
+
+hire|Bob|30
+hire|John|30
+hire|May|20
+
+setupTeam|Production Team|Bob
+addTeamMember|Production Team|John 
+
+takeLeave|John|BL|12-Jan-2022|18-Jan-2022
+
+takeLeave|Bob|AL|13-Jan-2022|14-Jan-2022|Production Team|John
+takeLeave|Bob|AL|13-Jan-2022|14-Jan-2022|Production Team|May
+takeLeave|Bob|AL|3-Jan-2022|4-Jan-2022|Production Team|John
+
+listTeamMembers
