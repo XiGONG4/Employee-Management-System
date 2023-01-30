@@ -1,0 +1,27 @@
+startNewDay|01-Jan-2022
+
+hire|Bob|30
+hire|John|30
+hire|May|20
+hire|Ann|20
+
+setupTeam|Production Team|Bob
+setupTeam|Sales Team|Bob
+addTeamMember|Production Team|John 
+addTeamMember|Sales Team|May 
+addTeamMember|Sales Team|Ann
+
+takeLeave|Bob|AL|3-Jan-2022|4-Jan-2022|Production Team|John
+takeLeave|Bob|AL|3-Jan-2022|4-Jan-2022|Sales Team|May
+takeLeave|Bob|AL|3-Jan-2022|4-Jan-2022|Production Team|John|Sales Team|Mandy
+takeLeave|Bob|AL|3-Jan-2022|4-Jan-2022|Production Team|John|Sales Team|John
+listTeamMembers
+
+takeLeave|Bob|BL|3-Jan-2022|9-Jan-2022|Production Team|John|Sales Team|May
+takeLeave|Ann|AL|3-Jan-2022|4-Jan-2022
+takeLeave|May|AL|3-Jan-2022|4-Jan-2022
+takeLeave|John|AL|8-Jan-2022|9-Jan-2022
+takeLeave|May|AL|3-Feb-2022|4-Feb-2022
+takeLeave|John|AL|1-Jan-2022|2-Jan-2022
+listTeamMembers
+listLeaves
